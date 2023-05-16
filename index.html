@@ -5,14 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./adapt.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <button class="add-student">Add new student</button>
+      <div class="navbar">
+        <button class="add-student">Add new student</button>
+        <div class="search">
+          <input type="search" class="inp-search" placeholder="Search" />
+          <button class="btn-search">
+            <img src="./icons/search.png" style="width: 17px" alt="" />
+          </button>
+        </div>
+      </div>
       <div class="students">
         <h1 class="student-title">Students</h1>
-        <div class="student-list">ehfjbejh</div>
+        <div class="student-list"></div>
+      </div>
+      <div class="pagination">
+        <button class="prev">prev</button>
+        <div class="pag-list"></div>
+        <button class="next">next</button>
       </div>
       <!-- modal -->
       <div class="modal">
@@ -57,7 +71,19 @@
             id="week4"
           />
           <button class="btn-add">Add</button>
+          <button class="btn-save">Save</button>
         </div>
+      </div>
+      <!-- modal-info -->
+      <div class="table-style">
+        <button class="close-table">X</button>
+        <table>
+          <!-- <div>
+            <img class="foto" src="./icons/icon.webp" alt="error" />
+          </div> -->
+          <div class="title-info">KPI</div>
+          <div class="table-info"></div>
+        </table>
       </div>
     </div>
     <script src="./script.js"></script>

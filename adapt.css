@@ -1,0 +1,43 @@
+@media all and (max-width: 1050px) {
+  .btn-list {
+    width: 25%;
+  }
+}
+@media all and (max-width: 870px) {
+  .btn-list {
+    width: 35%;
+  }
+  .add-student {
+    font-size: 1rem;
+  }
+}
+@media all and (max-width: 600px) {
+  .btn-list {
+    width: 45%;
+  }
+  .close-modal {
+    width: 25px;
+  }
+  .modal-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+@media all and (max-width: 400px) {
+  .btn-list {
+    width: 65%;
+  }
+  .add-student {
+    width: 60%;
+  }
+  .search {
+    width: 30px;
+  }
+  .inp-search {
+    display: none;
+  }
+  .modal {
+    left: 90px;
+  }
+}
